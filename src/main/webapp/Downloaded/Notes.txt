@@ -1,0 +1,1 @@
+local variables can be stored either on the stack or in a data segment depending on whether they are auto or static

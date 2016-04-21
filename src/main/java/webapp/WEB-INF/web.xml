@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="false">
+<servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>UserRegister</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>UserLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FileUpload</servlet-name>
+        <servlet-class>FileUpload</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PKGRegistration</servlet-name>
+        <servlet-class>PKGRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PKGLogin</servlet-name>
+        <servlet-class>PKGLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CSPRegistration</servlet-name>
+        <servlet-class>CSPRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CSPLogin</servlet-name>
+        <servlet-class>CSPLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserAccessActivateDeactivate</servlet-name>
+        <servlet-class>UserAccessActivateDeactivate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OutSourceToCloud</servlet-name>
+        <servlet-class>OutSourceToCloud</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SendKeyToMail</servlet-name>
+        <servlet-class>SendKeyToMail</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DecryptData</servlet-name>
+        <servlet-class>DecryptData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FileUpload</servlet-name>
+        <url-pattern>/FileUpload</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PKGRegistration</servlet-name>
+        <url-pattern>/PKGRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PKGLogin</servlet-name>
+        <url-pattern>/PKGLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CSPRegistration</servlet-name>
+        <url-pattern>/CSPRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CSPLogin</servlet-name>
+        <url-pattern>/CSPLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserAccessActivateDeactivate</servlet-name>
+        <url-pattern>/UserAccessActivateDeactivate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OutSourceToCloud</servlet-name>
+        <url-pattern>/OutSourceToCloud</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SendKeyToMail</servlet-name>
+        <url-pattern>/SendKeyToMail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DecryptData</servlet-name>
+        <url-pattern>/DecryptData</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+         
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
